@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "eslint:recommended",
+        // "plugin:vue/recommended"
+        "plugin:vue/base"
+    ],
+    "env": {
+        "es6": true
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "indent": ["error", 4],
+        "no-var": "error"
+    }
+}
