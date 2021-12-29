@@ -18,3 +18,5 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/vue-test', 'VueTestController@index');

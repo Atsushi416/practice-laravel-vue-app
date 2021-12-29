@@ -33,6 +33,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.4",
+        "jsrsasign": "^10.4.1",
         "vue-router": "^3.5.2",
         "vuex": "^3.6.2"
     }

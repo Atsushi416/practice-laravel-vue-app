@@ -19,24 +19,8 @@
 </template>
 
 <script>
-/**
- * @typedef {Object} Data
- * @property {number} id あいでぃい
- * @property {string} name なまえ
- */
 export default {
-    /**
-     * @type {DataDef}
-     * @return {Data}
-     */
-    data () {
-      return {
-        counter: 0,
-      }
-    },
     mounted() {
-        this.id = 'a';
-        let item = 1;
         console.log('Component mounted.', item);
     }
 };
